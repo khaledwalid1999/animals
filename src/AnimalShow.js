@@ -20,12 +20,7 @@ function AnimalShow({ type }) {
   return (
     <div className="animal-show" onClick={handleClick}>
       <span>{type.animal}</span>
-      <img
-        className="animal"
-        src={svgMap[type.animal]}
-        alt="animal"
-        className="animal-img"
-      />
+      <img className="animal" src={svgMap[type.animal]} alt="animal" />
       <img
         className="heart"
         src={heart}
